@@ -1,0 +1,17 @@
+{
+    "watch": [
+        "src",
+       "package.json",
+       "tsconfig.json"
+   ],
+   "ignore":  [
+    "node_modules",
+    "dist",
+    "build"
+   ],
+   "ext": "ts,json, ejs, css, html",
+   "exec": "ts-node src/index.ts"
+
+
+
+}
